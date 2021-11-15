@@ -1,0 +1,29 @@
+package gitPractice;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Random;
+
+public class UserMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Random random = new Random();
+		
+		ArrayList<Integer> numberList = new ArrayList<>();
+		int temp;
+		while(numberList.size() < 25) {
+			temp = random.nextInt(25) + 1;
+			if(!(numberList.contains(temp))) {
+				numberList.add(random.nextInt(25) + 1);
+			}			
+		}
+		for(int i =0; i<5;i++) {
+			for(int j=0; j<5; j++) {
+				System.out.print(numberList.get(5*i + j) );
+			}
+			System.out.println();
+		}
+	}
+
+}
