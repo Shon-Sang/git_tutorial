@@ -3,6 +3,7 @@ package gitPractice;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Random;
+import java.util.Scanner;
 
 public class UserMain {
 
@@ -55,6 +56,28 @@ public class UserMain {
 		System.out.println();
 		
 		System.out.println(decToHex(32));
+		//
+		Scanner sc = new Scanner(System.in);
+		String result;
+		
+		while((result = sc.nextLine()) != "0") {
+			switch(result) {
+			case "ABC":
+				System.out.println("ABC");
+				break;
+			case "DEF":
+				System.out.println("DEF");
+				break;
+			case "6":
+				System.out.println("6");
+				break;
+			default:
+				System.out.println("NULL");
+				break;
+			}
+		}
+		
+		
 		
 		
 	}
