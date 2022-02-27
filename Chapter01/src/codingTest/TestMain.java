@@ -1,5 +1,7 @@
 package codingTest;
 
+import java.util.Scanner;
+
 public class TestMain {
 
 	public static void main(String[] args) {
@@ -81,9 +83,14 @@ public class TestMain {
 //		System.out.println(result);
 		
 		
-		int[] input = {4, 1, 2, 1};
-		TestLevel2_TargetNumber test8 = new TestLevel2_TargetNumber();
-		System.out.println(test8.solution(input, 4));
+//		int[] input = {4, 1, 2, 1};
+//		TestLevel2_TargetNumber test8 = new TestLevel2_TargetNumber();
+//		System.out.println(test8.solution(input, 4));
+		
+		TestLevel2_DeleteTwin test9 = new TestLevel2_DeleteTwin();
+		String input = "dccdcddc";
+		System.out.println(test9.solution(input));
+		
 	}
 
 }
