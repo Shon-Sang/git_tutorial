@@ -87,10 +87,21 @@ public class TestMain {
 //		TestLevel2_TargetNumber test8 = new TestLevel2_TargetNumber();
 //		System.out.println(test8.solution(input, 4));
 		
-		TestLevel2_DeleteTwin test9 = new TestLevel2_DeleteTwin();
-		String input = "dccdcddc";
-		System.out.println(test9.solution(input));
+//		TestLevel2_DeleteTwin test9 = new TestLevel2_DeleteTwin();
+//		String input = "dccdcddc";
+//		System.out.println(test9.solution(input));
 		
+		//int[][] queries = {{2,2,5,4},{3,3,6,6},{5,1,6,3}};
+		int[][] queries = {{1,1,2,2},{1,2,2,3},{2,1,3,2},{2,2,3,3}};
+		//int[][] queries = {{1, 1, 100, 97}};
+		int[] result;
+		TestLevel2_EdgeRotation test10 = new TestLevel2_EdgeRotation();
+		result = test10.solution(3, 3, queries);
+		
+		for(int r : result) {
+			System.out.print(r + " ");
+		}
+	
 	}
 
 }
