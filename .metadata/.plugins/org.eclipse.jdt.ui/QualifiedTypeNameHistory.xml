@@ -20,7 +20,6 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
-    <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="arrayprac.LottoMaker"/>
     <fullyQualifiedTypeName name="codingTest.TestLevel2_String"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
@@ -28,7 +27,6 @@
     <fullyQualifiedTypeName name="java.util.Queue"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="java.util.Stack"/>
-    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="codingTest.TestLevel1_Lotto"/>
     <fullyQualifiedTypeName name="codingTest.TestLevel2_124Country"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
@@ -36,10 +34,13 @@
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="codingTest.TestLevel2_Openchat"/>
     <fullyQualifiedTypeName name="codingTest.TestLevel2_Hot"/>
     <fullyQualifiedTypeName name="java.util.Collection"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="codingTest.TestLevel2_TargetNumber"/>
+    <fullyQualifiedTypeName name="codingTest.TestLevel2_EdgeRotation"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
 </qualifiedTypeNameHistroy>

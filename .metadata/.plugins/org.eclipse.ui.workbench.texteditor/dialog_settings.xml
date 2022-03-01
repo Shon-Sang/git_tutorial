@@ -6,8 +6,12 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="showInfoString"/>
+		<item key="selection" value=""/>
 		<list key="findhistory">
+			<item value="String["/>
+			<item value="String[]"/>
+			<item value="sort(St"/>
+			<item value="sort"/>
 			<item value="showInfoString"/>
 			<item value="Txt"/>
 			<item value="numberList"/>

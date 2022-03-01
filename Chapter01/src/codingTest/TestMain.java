@@ -1,7 +1,5 @@
 package codingTest;
 
-import java.util.Scanner;
-
 public class TestMain {
 
 	public static void main(String[] args) {
@@ -91,15 +89,24 @@ public class TestMain {
 //		String input = "dccdcddc";
 //		System.out.println(test9.solution(input));
 		
-		//int[][] queries = {{2,2,5,4},{3,3,6,6},{5,1,6,3}};
-		int[][] queries = {{1,1,2,2},{1,2,2,3},{2,1,3,2},{2,2,3,3}};
-		//int[][] queries = {{1, 1, 100, 97}};
-		int[] result;
-		TestLevel2_EdgeRotation test10 = new TestLevel2_EdgeRotation();
-		result = test10.solution(3, 3, queries);
+//		//int[][] queries = {{2,2,5,4},{3,3,6,6},{5,1,6,3}};
+//		int[][] queries = {{1,1,2,2},{1,2,2,3},{2,1,3,2},{2,2,3,3}};
+//		//int[][] queries = {{1, 1, 100, 97}};
+//		int[] result;
+//		TestLevel2_EdgeRotation test10 = new TestLevel2_EdgeRotation();
+//		result = test10.solution(3, 3, queries);
+//		
+//		for(int r : result) {
+//			System.out.print(r + " ");
+//		}
 		
-		for(int r : result) {
-			System.out.print(r + " ");
+		TestLevel2_MenuRenewal test11 = new TestLevel2_MenuRenewal();
+		String[] orders = {"ABCDE", "AB", "CD", "ADE", "XYZ", "XYZ", "ACD"};
+		int[] course = {2, 3, 5};
+		String[] result;
+		result = test11.solution(orders, course);
+		for(String s: result) {
+			System.out.print(s + " ");
 		}
 	
 	}
