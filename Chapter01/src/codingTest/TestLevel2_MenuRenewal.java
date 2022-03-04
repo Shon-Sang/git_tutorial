@@ -3,7 +3,7 @@ package codingTest;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
+// 이문제 풀기위해 필요한것 정렬, charArray->String, ArrayList->Array, String.split("") 1글자씩 String배열만들기 contains위해
 public class TestLevel2_MenuRenewal {
 
 	public String[] solution(String[] orders, int[] course) { // 처음에 문제 잘못이해하고 풀어서 중간에 다시 수정함

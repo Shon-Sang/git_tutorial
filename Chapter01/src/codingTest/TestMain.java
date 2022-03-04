@@ -100,14 +100,22 @@ public class TestMain {
 //			System.out.print(r + " ");
 //		}
 		
-		TestLevel2_MenuRenewal test11 = new TestLevel2_MenuRenewal();
-		String[] orders = {"ABCDE", "AB", "CD", "ADE", "XYZ", "XYZ", "ACD"};
-		int[] course = {2, 3, 5};
-		String[] result;
-		result = test11.solution(orders, course);
-		for(String s: result) {
-			System.out.print(s + " ");
-		}
+//		TestLevel2_MenuRenewal test11 = new TestLevel2_MenuRenewal();
+//		String[] orders = {"ABCDE", "AB", "CD", "ADE", "XYZ", "XYZ", "ACD"};
+//		int[] course = {2, 3, 5};
+//		String[] result;
+//		result = test11.solution(orders, course);
+//		for(String s: result) {
+//			System.out.print(s + " ");
+//		}
+		
+//		TestLevel2_PhoneNumberList test12 = new TestLevel2_PhoneNumberList();
+//		String[] input = {"12","123","1235","567","88"};
+//		System.out.println(test12.solution(input));
+		
+		TestLevel2_Brackets test13 = new TestLevel2_Brackets();
+		String input = "()))((()";
+		System.out.println(test13.solution(input));
 	
 	}
 
