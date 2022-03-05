@@ -113,10 +113,35 @@ public class TestMain {
 //		String[] input = {"12","123","1235","567","88"};
 //		System.out.println(test12.solution(input));
 		
-		TestLevel2_Brackets test13 = new TestLevel2_Brackets();
-		String input = "()))((()";
-		System.out.println(test13.solution(input));
-	
+//		TestLevel2_Brackets test13 = new TestLevel2_Brackets();
+//		String input = "()))((()";
+//		System.out.println(test13.solution(input));
+		
+//		TestLevel2_NewClustering test14 = new TestLevel2_NewClustering();
+//		String str1 = "aa1+aa2"; // => aa a1 1+ +a aa a2 => aa  aa 
+//		String str2 = "AAAA12"; // =? aa aa aa
+//		// => 교집합 aa aa , 합집합 aa aa aa
+//		System.out.println(test14.solution(str1, str2));
+		
+//		TestLevel2_Easy_NewClustering test14Easy = new TestLevel2_Easy_NewClustering();
+//		String str1 = "E=M*C^2";
+//		String str2 = "e=m*c^2";
+//		System.out.println(test14Easy.solution(str1, str2));
+		
+		TestLevel2_DistancingConfirm test15 = new TestLevel2_DistancingConfirm();
+		String[][] input = {{"POOOP", "OXXOX", "OPXPX", "OOXOX", "POXXP"}, 
+				{"POOPX", "OXPXP", "PXXXO", "OXXXO", "OOOPP"}, 
+				{"PXOPX", "OXOXP", "OXPOX", "OXXOP", "PXPOX"}, 
+				{"OOOXX", "XOOOX", "OOOXX", "OXOOX", "OOOOO"}, 
+				{"PXPXP", "XPXPX", "PXPXP", "XPXPX", "PXPXP"}};
+		
+		int[] output = test15.solution(input);
+		
+		System.out.print("[");
+		for(int i: output) {
+			System.out.print(i +" ");
+		}
+		System.out.print("]");
 	}
 
 }

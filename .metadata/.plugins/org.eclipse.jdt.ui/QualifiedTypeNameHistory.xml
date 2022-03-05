@@ -39,11 +39,16 @@
     <fullyQualifiedTypeName name="codingTest.TestLevel2_TargetNumber"/>
     <fullyQualifiedTypeName name="codingTest.TestLevel2_EdgeRotation"/>
     <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="codingTest.TestLevel2_MenuRenewal"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="codingTest.TestLevel2_PhoneNumberList"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="codingTest.TestLevel2_Brackets"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="codingTest.TestLevel2_NewClustering"/>
+    <fullyQualifiedTypeName name="codingTest.TestLevel2_Easy_NewClustering"/>
+    <fullyQualifiedTypeName name="java.lang.Character"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="codingTest.TestLevel2_DistancingConfirm"/>
 </qualifiedTypeNameHistroy>
