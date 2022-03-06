@@ -128,20 +128,37 @@ public class TestMain {
 //		String str2 = "e=m*c^2";
 //		System.out.println(test14Easy.solution(str1, str2));
 		
-		TestLevel2_DistancingConfirm test15 = new TestLevel2_DistancingConfirm();
-		String[][] input = {{"POOOP", "OXXOX", "OPXPX", "OOXOX", "POXXP"}, 
-				{"POOPX", "OXPXP", "PXXXO", "OXXXO", "OOOPP"}, 
-				{"PXOPX", "OXOXP", "OXPOX", "OXXOP", "PXPOX"}, 
-				{"OOOXX", "XOOOX", "OOOXX", "OXOOX", "OOOOO"}, 
-				{"PXPXP", "XPXPX", "PXPXP", "XPXPX", "PXPXP"}};
+//		TestLevel2_DistancingConfirm test15 = new TestLevel2_DistancingConfirm();
+//		String[][] input = {{"POOOP", "OXXOX", "OPXPX", "OOXOX", "POXXP"}, 
+//				{"POOPX", "OXPXP", "PXXXO", "OXXXO", "OOOPP"}, 
+//				{"PXOPX", "OXOXP", "OXPOX", "OXXOP", "PXPOX"}, 
+//				{"OOOXX", "XOOOX", "OOOXX", "OXOOX", "OOOOO"}, 
+//				{"PXPXP", "XPXPX", "PXPXP", "XPXPX", "PXPXP"}};
+//		
+//		int[] output = test15.solution(input);
+//		
+//		System.out.print("[");
+//		for(int i: output) {
+//			System.out.print(i +" ");
+//		}
+//		System.out.print("]");
 		
-		int[] output = test15.solution(input);
+		TestLevel2_MaxFormula test16 = new TestLevel2_MaxFormula();
+		String input = "100-200*300-500+20";
+		System.out.println(test16.maxmaker(input));
+//		String input1 = test16.strTovalue(input, '*');
+//		String input2 = test16.strTovalue(input1, '+');
+//		System.out.println(test16.strTovalue(input2, '-'));
+//		
+//		char[][] output = test16.operarrmaker(input);
+//		for(int i=0;i<output.length;i++) {
+//			for(int j=0; j<output[i].length;j++) {
+//				System.out.print(output[i][j] + " ");
+//			}
+//			System.out.println();
+//		}
 		
-		System.out.print("[");
-		for(int i: output) {
-			System.out.print(i +" ");
-		}
-		System.out.print("]");
+//		System.out.println(test16.maxmaker(input));
 	}
 
 }

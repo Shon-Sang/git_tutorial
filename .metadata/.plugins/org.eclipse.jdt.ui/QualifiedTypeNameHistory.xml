@@ -29,7 +29,6 @@
     <fullyQualifiedTypeName name="java.util.Stack"/>
     <fullyQualifiedTypeName name="codingTest.TestLevel1_Lotto"/>
     <fullyQualifiedTypeName name="codingTest.TestLevel2_124Country"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="codingTest.TestLevel2_Openchat"/>
@@ -43,12 +42,14 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="codingTest.TestLevel2_PhoneNumberList"/>
-    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="codingTest.TestLevel2_Brackets"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="codingTest.TestLevel2_NewClustering"/>
     <fullyQualifiedTypeName name="codingTest.TestLevel2_Easy_NewClustering"/>
+    <fullyQualifiedTypeName name="codingTest.TestLevel2_DistancingConfirm"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="codingTest.TestLevel2_MaxFormula"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="codingTest.TestLevel2_DistancingConfirm"/>
 </qualifiedTypeNameHistroy>
