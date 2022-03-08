@@ -143,9 +143,10 @@ public class TestMain {
 //		}
 //		System.out.print("]");
 		
-		TestLevel2_MaxFormula test16 = new TestLevel2_MaxFormula();
-		String input = "100-200*300-500+20";
-		System.out.println(test16.maxmaker(input));
+//		TestLevel2_MaxFormula test16 = new TestLevel2_MaxFormula();
+//		String input = "100-200*300-500+20";
+//		System.out.println(test16.maxmaker(input));
+		
 //		String input1 = test16.strTovalue(input, '*');
 //		String input2 = test16.strTovalue(input1, '+');
 //		System.out.println(test16.strTovalue(input2, '-'));
@@ -159,6 +160,30 @@ public class TestMain {
 //		}
 		
 //		System.out.println(test16.maxmaker(input));
+		
+		
+//		TestLevel2_Tuple test17 = new TestLevel2_Tuple();
+//		String input = "{{2},{2,1},{2,1,3},{2,1,3,4}}";
+//		int[] output = test17.solution(input);
+//		System.out.print("[");
+		
+		TestLevel2_Printer test18 = new TestLevel2_Printer();
+		int[] inputArr = {1, 1, 9, 1, 1, 1};
+		int loca = 0;
+		
+		//test18.solution(inputArr, loca);
+		System.out.println(test18.solution(inputArr, loca));
+	}
+	
+	public static void sysArr(int[] arr) {
+		System.out.print("[");
+		for(int i =0; i<arr.length; i++) {
+			if(i == arr.length - 1) {
+				System.out.print(arr[i] + "]");
+				break;
+			}
+			System.out.print(arr[i]+", ");
+		}
 	}
 
 }
