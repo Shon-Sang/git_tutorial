@@ -167,13 +167,19 @@ public class TestMain {
 //		int[] output = test17.solution(input);
 //		System.out.print("[");
 		
-		TestLevel2_Printer test18 = new TestLevel2_Printer();
-		int[] inputArr = {1, 1, 9, 1, 1, 1};
-		int loca = 0;
+//		TestLevel2_Printer test18 = new TestLevel2_Printer();
+//		int[] inputArr = {1, 1, 9, 1, 1, 1};
+//		int loca = 0;
+//		
+//		//test18.solution(inputArr, loca);
+//		System.out.println(test18.solution(inputArr, loca));
 		
-		//test18.solution(inputArr, loca);
-		System.out.println(test18.solution(inputArr, loca));
+		TestLevel2_MaxNumber test19 = new TestLevel2_MaxNumber();
+		int[] input = {3, 30, 34, 5, 9};
+		System.out.println(test19.solution(input));
 	}
+	
+	
 	
 	public static void sysArr(int[] arr) {
 		System.out.print("[");

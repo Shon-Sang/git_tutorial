@@ -35,7 +35,6 @@
     <fullyQualifiedTypeName name="codingTest.TestLevel2_TargetNumber"/>
     <fullyQualifiedTypeName name="codingTest.TestLevel2_EdgeRotation"/>
     <fullyQualifiedTypeName name="codingTest.TestLevel2_MenuRenewal"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="codingTest.TestLevel2_PhoneNumberList"/>
     <fullyQualifiedTypeName name="codingTest.TestLevel2_Brackets"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
@@ -43,15 +42,18 @@
     <fullyQualifiedTypeName name="codingTest.TestLevel2_Easy_NewClustering"/>
     <fullyQualifiedTypeName name="codingTest.TestLevel2_DistancingConfirm"/>
     <fullyQualifiedTypeName name="codingTest.TestLevel2_MaxFormula"/>
-    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="codingTest.TestLevel2_Tuple"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
-    <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="codingTest.TestLevel2_Printer"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.code.Attribute.Array"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="codingTest.TestLevel2_MaxNumber"/>
 </qualifiedTypeNameHistroy>
