@@ -174,9 +174,15 @@ public class TestMain {
 //		//test18.solution(inputArr, loca);
 //		System.out.println(test18.solution(inputArr, loca));
 		
-		TestLevel2_MaxNumber test19 = new TestLevel2_MaxNumber();
-		int[] input = {3, 30, 34, 5, 9};
-		System.out.println(test19.solution(input));
+//		TestLevel2_MaxNumber test19 = new TestLevel2_MaxNumber();
+//		int[] input = {3, 30, 34, 5, 9};
+//		System.out.println(test19.solution(input));
+		
+		TestLevel2_JoyStick test20 = new TestLevel2_JoyStick();
+		String name = "JAN";
+		System.out.println(test20.solution(name));
+		
+		
 	}
 	
 	
