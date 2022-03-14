@@ -178,11 +178,35 @@ public class TestMain {
 //		int[] input = {3, 30, 34, 5, 9};
 //		System.out.println(test19.solution(input));
 		
-		TestLevel2_JoyStick test20 = new TestLevel2_JoyStick();
-		String name = "JAN";
-		System.out.println(test20.solution(name));
+//		TestLevel2_JoyStick test20 = new TestLevel2_JoyStick();
+//		String name = "JAN";
+//		System.out.println(test20.solution(name));
 		
+//		TestLevel2_GameMapShortest test21 = new TestLevel2_GameMapShortest();
+//		int[][] input = {{1,0,1,1,1},{1,0,1,0,1},{1,0,1,1,1},{1,1,1,0,1},{0,0,0,0,1}};
+//		//int[][] input = {{1,0,1,1,1},{1,0,1,0,1},{1,0,1,1,1},{1,1,1,0,0},{0,0,0,0,1}};
+//		System.out.println(test21.solution(input));
 		
+//		TestLevel2_AntiMatch test22 = new TestLevel2_AntiMatch();
+//		System.out.println(test22.solution(8, 4, 7));
+		
+		TestLevel2_RankingSearch test23 = new TestLevel2_RankingSearch();
+		String[] info = {"java backend junior pizza 150",
+				"python frontend senior chicken 210",
+				"python frontend senior chicken 150",
+				"cpp backend senior pizza 260",
+				"java backend junior chicken 80",
+				"python backend senior chicken 50"};
+		
+		String[] query = {"java and backend and junior and pizza 100",
+				"python and frontend and senior and chicken 200",
+				"cpp and - and senior and pizza 250",
+				"- and backend and senior and - 150",
+				"- and - and - and chicken 100",
+				"- and - and - and - 150"};
+		
+		int[] result = test23.solution(info, query);
+		sysArr(result);
 	}
 	
 	
