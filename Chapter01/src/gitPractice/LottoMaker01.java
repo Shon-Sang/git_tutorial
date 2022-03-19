@@ -15,19 +15,19 @@ public class LottoMaker01 {
 		for(int i = 0; i < numberArray.length; i++) {
 			numberArray[i] = rd.nextInt(45) + 1;
 			
-			for(int j = 0; j<i; j++) { // �ߺ�
+			for(int j = 0; j<i; j++) { //
 				if(numberArray[j]==numberArray[i]) {
 					i--;
 					flag = false;
 					break;
 				}
-				if(j == i-1) {
+				if(j == i-1) { // 안에있는 개수만큼
 					flag = true;
 				}
 			}
 			
 			
-			if(flag) { // ����				
+			if(flag) { // 오름차순 정렬
 				for(int q = 0; q<i; q++) {
 					if(numberArray[i]<numberArray[q]) {
 						temp = numberArray[i];
@@ -40,7 +40,7 @@ public class LottoMaker01 {
 		}
 		
 		for(int num : numberArray) {
-			System.out.println(num);
+			System.out.print(num+" ");
 		}
 	}
 

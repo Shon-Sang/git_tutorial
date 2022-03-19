@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.IncompatibleClassChangeError"/>
-    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
-    <fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
     <fullyQualifiedTypeName name="inheritPrac.Sonata"/>
     <fullyQualifiedTypeName name="inheritPrac.CarMove"/>
     <fullyQualifiedTypeName name="inheritPrac.AirPlane"/>
@@ -24,8 +21,6 @@
     <fullyQualifiedTypeName name="codingTest.TestLevel2_String"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="codingTest.TestLevel1_NewId"/>
-    <fullyQualifiedTypeName name="java.util.Queue"/>
-    <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="java.util.Stack"/>
     <fullyQualifiedTypeName name="codingTest.TestLevel1_Lotto"/>
     <fullyQualifiedTypeName name="codingTest.TestLevel2_124Country"/>
@@ -48,14 +43,21 @@
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="codingTest.TestLevel2_Printer"/>
     <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.code.Attribute.Array"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.Comparator"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="codingTest.TestLevel2_MaxNumber"/>
     <fullyQualifiedTypeName name="codingTest.TestLevel2_GameMapShortest"/>
     <fullyQualifiedTypeName name="codingTest.TestLevel2_AntiMatch"/>
+    <fullyQualifiedTypeName name="codingTest.TestLevel2_RankingSearch"/>
+    <fullyQualifiedTypeName name="codingTest.TestLevel2_Camouflage"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.Queue"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="codingTest.TestLevel2_ThroughBridge"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="codingTest.TestLevel2_HIndex"/>
+    <fullyQualifiedTypeName name="codingTest.TestLevel2_Carpet"/>
 </qualifiedTypeNameHistroy>

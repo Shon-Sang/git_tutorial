@@ -190,23 +190,53 @@ public class TestMain {
 //		TestLevel2_AntiMatch test22 = new TestLevel2_AntiMatch();
 //		System.out.println(test22.solution(8, 4, 7));
 		
-		TestLevel2_RankingSearch test23 = new TestLevel2_RankingSearch();
-		String[] info = {"java backend junior pizza 150",
-				"python frontend senior chicken 210",
-				"python frontend senior chicken 150",
-				"cpp backend senior pizza 260",
-				"java backend junior chicken 80",
-				"python backend senior chicken 50"};
+//		TestLevel2_RankingSearch test23 = new TestLevel2_RankingSearch();
+//		String[] info = {"java backend junior pizza 150",
+//				"python frontend senior chicken 210",
+//				"python frontend senior chicken 150",
+//				"cpp backend senior pizza 260",
+//				"java backend junior chicken 80",
+//				"python backend senior chicken 50"};
+//		
+//		String[] query = {"java and backend and junior and pizza 100",
+//				"python and frontend and senior and chicken 200",
+//				"cpp and - and senior and pizza 250",
+//				"- and backend and senior and - 150",
+//				"- and - and - and chicken 100",
+//				"- and - and - and - 150"};
+//		
+//		int[] result = test23.solution(info, query);
+//		sysArr(result);
 		
-		String[] query = {"java and backend and junior and pizza 100",
-				"python and frontend and senior and chicken 200",
-				"cpp and - and senior and pizza 250",
-				"- and backend and senior and - 150",
-				"- and - and - and chicken 100",
-				"- and - and - and - 150"};
+//		TestLevel2_Camouflage test24 = new TestLevel2_Camouflage();
+//		String[][] input1 = {{"yellowhat", "headgear"}, 
+//				{"bluesunglasses", "eyewear"}, 
+//				{"green_turban", "headgear"}};		
+//		String[][] input2 = {{"crowmask", "face"},
+//				{"bluesunglasses", "face"},
+//				{"smoky_makeup", "face"}};
+//		System.out.println(test24.solution(input1));
 		
-		int[] result = test23.solution(info, query);
-		sysArr(result);
+//		TestLevel2_ThroughBridge test25 = new TestLevel2_ThroughBridge();
+//		int brLen = 2;
+//		int weight = 10;
+//		int[] truckweight = {7,4,5,6};
+//		//int[] truckweight = {10,10,10,10,10,10,10,10,10,10};
+//		System.out.println(test25.solution(brLen, weight, truckweight));
+		
+//		TestLevel2_HIndex test26 = new TestLevel2_HIndex();
+//		int[] input = {3, 5, 6, 5, 5};
+//		System.out.println(test26.solution(input));
+		
+//		TestLevel2_Carpet test27 = new TestLevel2_Carpet();
+//		int brown = 10;
+//		int yellow = 2;
+//		int[] result = test27.solution(brown, yellow);
+//		sysArr(result);
+		
+		TestLevel2_MaxNumberMaker test28 = new TestLevel2_MaxNumberMaker();
+		String number = "1231234";
+		System.out.println(test28.solution(number, 3));
 	}
 	
 	
