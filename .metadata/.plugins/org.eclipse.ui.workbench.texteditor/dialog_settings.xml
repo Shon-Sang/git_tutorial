@@ -6,8 +6,11 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="DeleteTwin"/>
+		<item key="selection" value="Tuple"/>
 		<list key="findhistory">
+			<item value="tuple"/>
+			<item value="listToArray"/>
+			<item value="lotto"/>
 			<item value="DeleteTwin"/>
 			<item value="String["/>
 			<item value="String[]"/>

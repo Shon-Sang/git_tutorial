@@ -164,9 +164,10 @@ public class TestMain {
 		
 //		TestLevel2_Tuple test17 = new TestLevel2_Tuple();
 //		String input = "{{2},{2,1},{2,1,3},{2,1,3,4}}";
-//		int[] output = test17.solution(input);
-//		System.out.print("[");
-		
+//		String input2 = "{{4,2,3},{3},{2,3,4,1},{2,3}}";
+//		int[] output = test17.solution(input2);
+//		sysArr(output);
+				
 //		TestLevel2_Printer test18 = new TestLevel2_Printer();
 //		int[] inputArr = {1, 1, 9, 1, 1, 1};
 //		int loca = 0;
@@ -234,9 +235,32 @@ public class TestMain {
 //		int[] result = test27.solution(brown, yellow);
 //		sysArr(result);
 		
-		TestLevel2_MaxNumberMaker test28 = new TestLevel2_MaxNumberMaker();
-		String number = "1231234";
-		System.out.println(test28.solution(number, 3));
+//		TestLevel2_MaxNumberMaker test28 = new TestLevel2_MaxNumberMaker();
+//		String number = "1231234";
+//		System.out.println(test28.solution(number, 3));
+		
+//		TestLevel2_Fatigability test29 = new TestLevel2_Fatigability();
+//		int[][] input = {{80,20},{50,40},{30,10}};
+//		int fati = 80;
+//		System.out.println(test29.solution(fati, input));
+		
+//		TestLevel2_Friends4Block test30 = new TestLevel2_Friends4Block();
+//		int m = 6;
+//		int n = 6;
+//		//String[] board = {"CCBDE", "AAADE", "AAABF", "CCBBF"};
+//		String[] board = {"TTTANT", "RRFACC", "RRRFCC", "TRRRAA", "TTMMMF", "TMMTTJ"};
+//		int result = test30.solution(m, n, board);
+//		System.out.println(result);
+		
+		TestLevel2_EnglishWordChainGame test31 = new TestLevel2_EnglishWordChainGame();
+		int n = 2;
+		String[] words = {"tank", "kick", "know", "wheel", "land", "dream", "mother",
+				"robot", "tank"};
+		String[] words2 = {"hello", "observe", "effect", "take", "either", "recognize",
+				"encourage", "ensure", "establish", "hang", "gather", "refer", "reference",
+				"estimate", "executive"};
+		String[] words3 = {"hello", "one", "even", "never", "now", "world", "draw"};
+		sysArr(test31.solution(n, words3));
 	}
 	
 	
