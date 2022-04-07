@@ -252,15 +252,53 @@ public class TestMain {
 //		int result = test30.solution(m, n, board);
 //		System.out.println(result);
 		
-		TestLevel2_EnglishWordChainGame test31 = new TestLevel2_EnglishWordChainGame();
-		int n = 2;
-		String[] words = {"tank", "kick", "know", "wheel", "land", "dream", "mother",
-				"robot", "tank"};
-		String[] words2 = {"hello", "observe", "effect", "take", "either", "recognize",
-				"encourage", "ensure", "establish", "hang", "gather", "refer", "reference",
-				"estimate", "executive"};
-		String[] words3 = {"hello", "one", "even", "never", "now", "world", "draw"};
-		sysArr(test31.solution(n, words3));
+//		TestLevel2_EnglishWordChainGame test31 = new TestLevel2_EnglishWordChainGame();
+//		int n = 2;
+//		String[] words = {"tank", "kick", "know", "wheel", "land", "dream", "mother",
+//				"robot", "tank"};
+//		String[] words2 = {"hello", "observe", "effect", "take", "either", "recognize",
+//				"encourage", "ensure", "establish", "hang", "gather", "refer", "reference",
+//				"estimate", "executive"};
+//		String[] words3 = {"hello", "one", "even", "never", "now", "world", "draw"};
+//		sysArr(test31.solution(n, words3));
+		
+//		TestLevel2_StockPrice test32 = new TestLevel2_StockPrice();
+//		int[] prices = {1,2,3,2,3};
+//		sysArr(test32.solution(prices));
+		
+//		TestLevel2_BinaryTransfer test33 = new TestLevel2_BinaryTransfer();
+//		String input = "1111111";
+//		sysArr(test33.solution(input));
+		
+//		TestLevel2_BinaryArrayCut test34 = new TestLevel2_BinaryArrayCut();
+//		int n = 4;
+//		int left = 7;
+//		int right = 14;
+//		
+//		int[] result = test34.solution(n, left, right);
+		
+//		TestLevel2_QuerdCompress test35 = new TestLevel2_QuerdCompress();
+//		int[][] input = {{1,1,0,0},{1,0,0,0},{1,0,0,1},{1,1,1,1}};
+//		int[][] input2 = {{1,1,1,1,1,1,1,1},{0,1,1,1,1,1,1,1},{0,0,0,0,1,1,1,1},{0,1,0,0,1,1,1,1},
+//		                  {0,0,0,0,0,0,1,1},{0,0,0,0,0,0,0,1},{0,0,0,0,1,0,0,1},{0,0,0,0,1,1,1,1}};
+//		int[] result = test35.solution(input2);
+//		sysArr(result);
+		
+//		TestLevel2_SkillTree test36 = new TestLevel2_SkillTree();
+//		String skill = "CBD";
+//		String[] skill_trees = {"BACDE", "CBADF", "AECB", "BDA"};
+//		System.out.println(test36.solution(skill, skill_trees));
+		
+//		TestLevel2_VisitedLength test37 = new TestLevel2_VisitedLength();
+//		String dirs = "ULURRDLLU";
+//		System.out.println(test37.solution(dirs));
+		
+		TestLevel2_JustSong test38 = new TestLevel2_JustSong();
+		String m = "ABC";
+		String[] musicinfos = {"12:00,12:14,HELLO,C#DEFGAB", "13:00,13:05,WORLD,ABCDEF"};
+		System.out.println(test38.solution(m, musicinfos));
+		
+		
 	}
 	
 	
