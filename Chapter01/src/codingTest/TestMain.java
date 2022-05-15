@@ -1,5 +1,7 @@
 package codingTest;
 
+import codingTest.parkingcalculation.TestLevel2_CarParking;
+
 public class TestMain {
 
 	public static void main(String[] args) {
@@ -293,14 +295,105 @@ public class TestMain {
 //		String dirs = "ULURRDLLU";
 //		System.out.println(test37.solution(dirs));
 		
-		TestLevel2_JustSong test38 = new TestLevel2_JustSong();
-		String m = "ABC";
-		String[] musicinfos = {"12:00,12:14,HELLO,C#DEFGAB", "13:00,13:05,WORLD,ABCDEF"};
-		System.out.println(test38.solution(m, musicinfos));
+//		TestLevel2_JustSong test38 = new TestLevel2_JustSong();
+//		String m = "ABC";
+//		String[] musicinfos = {"12:00,12:14,HELLO,C#DEFGAB", "13:00,13:05,WORLD,ABCDEF"};
+//		System.out.println(test38.solution(m, musicinfos));
 		
+//		TestLevel2_SearchBigSquare test39 = new TestLevel2_SearchBigSquare();
+//		int[][] board1 = {{0, 1, 1, 1}, {1, 1, 1, 1}, {1, 1, 1, 1}, {0, 0, 1, 0}};
+//		int[][] board2 = {{0,0,1,1},{1,1,1,1}};
+//		System.out.println(test39.solution(board1));
+		
+//		TestLevel2_FileNameSort test40 = new TestLevel2_FileNameSort();
+//		String[] input = {"F-5 Freedom Fighter", "B-50 Superfortress", "A-10 Thunderbolt II", "F-14 Tomcat"};
+//		for(String s : test40.solution(input)) {
+//			System.out.print(s +" ");
+//		}
+		
+//		TestLevel2_CorrectBrackets test41 = new TestLevel2_CorrectBrackets();
+//		String input = "(())()";
+//		System.out.println(test41.solution(input));
+		
+//		TestLevel2_NbinaryNum test42 = new TestLevel2_NbinaryNum();
+//		System.out.println(test42.solution(16, 16, 2, 2));
+		
+//		TestLevel2_NextBigNumber test43 = new TestLevel2_NextBigNumber();
+//		System.out.println(test43.solution(15));
+		
+//		TestLevel2_Hopscotch1 test44 = new TestLevel2_Hopscotch1();
+//		int[][] land = {{1,2,3,5},{5,6,7,8},{4,3,2,1}};
+//		System.out.println(test44.solution(land));
+		
+//		TestLevel2_NDigitPrimeNumber test45 = new TestLevel2_NDigitPrimeNumber();
+//		int n = 110011;
+//		int k = 10;
+//		System.out.println(test45.solution(n, k));
+		
+//		TestLevel2_NumberExpression test46 = new TestLevel2_NumberExpression();
+//		int n = 15;
+//		System.out.println(test46.solution(n));
+		
+//		TestLevel2_CarParking test47 = new TestLevel2_CarParking();
+//		int[] fees_1 = {180, 5000, 10, 600};
+//		String[] records_1 = {"05:34 5961 IN", "06:00 0000 IN", "06:34 0000 OUT", "07:59 5961 OUT", "07:59 0148 IN", 
+//				"18:59 0000 IN", "19:09 0148 OUT", "22:59 5961 IN", "23:00 5961 OUT"};
+////		String[] records_1 = { "06:00 0000 IN", "06:34 0000 OUT",  
+////				"18:59 0000 IN"};
+//		
+//		int[] fees_2 = {120, 0, 60, 591};
+//		String[] records_2 = {"16:00 3961 IN","16:00 0202 IN","18:00 3961 OUT","18:00 0202 OUT","23:58 3961 IN"};
+//		
+//		int[] fees_3 = {1, 461, 1, 10};
+//		String[] records_3 = {"00:00 1234 IN"};
+//		
+//		int[] result = test47.solution(fees_3, records_3);
+//		for(int ac : result) {
+//			System.out.printf("%d ",ac);
+//		}
+		
+//		TestLevel2_MaximumMinmum test49 = new TestLevel2_MaximumMinmum();
+//		String s = "-1 -1";
+//		System.out.println(test49.solution(s));
+		
+//		TestLevel2_MinimumMaker test50 = new TestLevel2_MinimumMaker();
+//		int[] A = {1,2};
+//		int[] B = {3,4};
+//		System.out.println(test50.solution(A, B));
+		
+//		TestLevel2_FibonacciNumber test51 = new TestLevel2_FibonacciNumber();
+//		System.out.println(test51.solution(5));
+		
+		TestLevel2_MatrixMultiply test52 = new TestLevel2_MatrixMultiply();
+//		int[][] arr1 = {{1, 4}, {3, 2}, {4, 1}};
+//		int[][] arr2 = 	{{3, 3}, {3, 3}};
+		
+		int[][] arr1 = {{2, 3, 2}, {4, 2, 4}, {3, 1, 4}};
+		int[][] arr2 = 	{{5, 4, 3}, {2, 4, 1},{3, 1, 1}};
+		
+		sysArr(test52.solution(arr1, arr2));
 		
 	}
 	
+	public static void sysArr(int[][] arr) {
+		System.out.print("[");
+		for(int i = 0; i<arr.length; i++) {
+			System.out.print("[");
+			for(int j = 0; j<arr[0].length; j++) {
+				if(j == arr[0].length - 1) {
+					System.out.print(arr[i][j]);
+				}else {
+					System.out.print(arr[i][j] + ", ");
+				}
+			}
+			if(i == arr.length - 1) {
+				System.out.print("]");
+			}else {
+				System.out.print("], ");
+			}
+		}
+		System.out.print("]");
+	}
 	
 	
 	public static void sysArr(int[] arr) {
