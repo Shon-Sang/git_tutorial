@@ -364,14 +364,22 @@ public class TestMain {
 //		TestLevel2_FibonacciNumber test51 = new TestLevel2_FibonacciNumber();
 //		System.out.println(test51.solution(5));
 		
-		TestLevel2_MatrixMultiply test52 = new TestLevel2_MatrixMultiply();
+//		TestLevel2_MatrixMultiply test52 = new TestLevel2_MatrixMultiply();
 //		int[][] arr1 = {{1, 4}, {3, 2}, {4, 1}};
 //		int[][] arr2 = 	{{3, 3}, {3, 3}};
 		
-		int[][] arr1 = {{2, 3, 2}, {4, 2, 4}, {3, 1, 4}};
-		int[][] arr2 = 	{{5, 4, 3}, {2, 4, 1},{3, 1, 1}};
+//		int[][] arr1 = {{2, 3, 2}, {4, 2, 4}, {3, 1, 4}};
+//		int[][] arr2 = 	{{5, 4, 3}, {2, 4, 1},{3, 1, 1}};
+//		
+//		sysArr(test52.solution(arr1, arr2));
+//		TestLevel2_JadenCase test53 = new TestLevel2_JadenCase();
+//		String s = "for the last week";
+//		System.out.println(test53.solution(s));
 		
-		sysArr(test52.solution(arr1, arr2));
+		TestLevel2_LeastCommonMultiple test53 = new TestLevel2_LeastCommonMultiple();
+		int[] input1 = {2,6,8,14};
+		int[] input2 = {1,2,3};
+		System.out.println(test53.solution(input2));
 		
 	}
 	
