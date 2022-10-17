@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.LinkedList"/>
-    <fullyQualifiedTypeName name="codingTest.TestLevel2_NDigitPrimeNumber"/>
     <fullyQualifiedTypeName name="java.lang.Double"/>
     <fullyQualifiedTypeName name="java0412_collection.prob.Television"/>
     <fullyQualifiedTypeName name="java.io.FileReader"/>
@@ -30,7 +28,6 @@
     <fullyQualifiedTypeName name="codingTest.TestLevel2_FibonacciNumber"/>
     <fullyQualifiedTypeName name="codingTest.TestLevel2_MatrixMultiply"/>
     <fullyQualifiedTypeName name="codingTest.TestLevel2_JadenCase"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="codingTest.TestLevel2_LeastCommonMultiple"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
@@ -54,10 +51,13 @@
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="integer_triangle.IntegerTriangle"/>
-    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
     <fullyQualifiedTypeName name="mysort01.MySort01"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="dual_priority_queue.DualPriorityQueue"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="my_duplication01.MyDuplication01"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="number_game.NumberGame"/>
 </qualifiedTypeNameHistroy>
