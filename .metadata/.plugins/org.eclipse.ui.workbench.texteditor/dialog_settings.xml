@@ -8,6 +8,7 @@
 		<item key="isRegEx" value="false"/>
 		<item key="selection" value="sortArr"/>
 		<list key="findhistory">
+			<item value="finalLength"/>
 			<item value="arr"/>
 			<item value="out"/>
 			<item value="parkCheck"/>
