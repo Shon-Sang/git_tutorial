@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java0405_binding.prob.part02.Developer"/>
-    <fullyQualifiedTypeName name="java0405_binding.prob.part03.Contract"/>
     <fullyQualifiedTypeName name="java0405_binding.prob.part03.Regular"/>
     <fullyQualifiedTypeName name="java0405_binding.prob.part03.Employee"/>
     <fullyQualifiedTypeName name="java.sql.Statement"/>
@@ -39,7 +37,6 @@
     <fullyQualifiedTypeName name="com.sun.imageio.stream.StreamCloser"/>
     <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
     <fullyQualifiedTypeName name="best_set.BestSet"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="integer_triangle.IntegerTriangle"/>
     <fullyQualifiedTypeName name="mysort01.MySort01"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
@@ -47,11 +44,8 @@
     <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
     <fullyQualifiedTypeName name="my_duplication01.MyDuplication01"/>
     <fullyQualifiedTypeName name="number_game.NumberGame"/>
-    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="binary_trans_repeat.BinaryTransRepeat"/>
     <fullyQualifiedTypeName name="correct_bracket.CorrectBracket"/>
-    <fullyQualifiedTypeName name="java.lang.Character"/>
-    <fullyQualifiedTypeName name="java.util.Stack"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="java.math.BigDecimal"/>
     <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
@@ -60,4 +54,10 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="carpet.Carpet"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="next_bignumber.NextBigNumber"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="remove_by_pair.RemoveByPair"/>
+    <fullyQualifiedTypeName name="java.lang.Character"/>
+    <fullyQualifiedTypeName name="java.util.Stack"/>
 </qualifiedTypeNameHistroy>
